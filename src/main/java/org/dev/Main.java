@@ -1,13 +1,8 @@
-package org.example;
+package org.dev;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
-
-import static java.util.stream.Collectors.toList;
 
 public class Main {
 
@@ -23,5 +18,17 @@ public class Main {
         array.add(1);
 
         PlusMinus.plusMinus(array);
+
+        //MINUS-MAX SUM TEST
+        List<Integer> array2 = new ArrayList<>();
+        array2.add(1);
+        array2.add(2);
+        array2.add(3);
+        array2.add(4);
+        array2.add(5);
+
+        MinMaxSum.miniMaxSum(array2);
+
+
     }
 }
